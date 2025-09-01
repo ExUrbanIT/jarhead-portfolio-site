@@ -1,0 +1,111 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f7f7f7;
+    color: #222;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background: #333;
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Intro */
+.intro {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Gallery */
+.preview-gallery {
+    padding: 2rem;
+    background: #fff;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.gallery-item {
+    background: #ccc;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-gallery {
+    padding: 2rem;
+    background: #f0f0f0;
+}
+.portfolio-gallery .gallery-item {
+    background: #e0e0e0;
+    height: 180px;
+    text-align: center;
+    line-height: 180px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Call to Action */
+.cta {
+    background: #005a87;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #fff;
+    color: #005a87;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+
